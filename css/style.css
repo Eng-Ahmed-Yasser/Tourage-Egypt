@@ -1,0 +1,1350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(146, 146, 146);
+    position: fixed;
+    z-index: 1;
+}
+.headericon{
+    margin-top: -22px;
+    margin-left: 90px;
+    opacity: 0.7;
+    color: rgb(42, 17, 17);
+}
+.header i{
+    color: rgb(42, 17, 17);
+}
+.list{
+    list-style: none;
+    float: right;
+    padding-top: 18px;
+    padding-right: 30px;
+}
+.list li{
+    display: inline;
+    margin-left: 20px;
+}
+.list li a{
+    text-decoration: none;
+    color: azure;
+}
+.a1{
+    position: relative;
+}
+.a1::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top:20px;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+}
+.a1:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.a2{
+    position: relative;
+}
+.a2::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.a2:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.a3{
+    position: relative;
+}
+.a3::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.a3:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.a4{
+    position: relative;
+}
+.a4::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.a4:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.a5{
+    position: relative;
+}
+.a5::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.a5:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.a6{
+    position: relative;
+}
+.a6::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.a6:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.a7{
+    position: relative;
+}
+.a7::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.a7:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.a8{
+    position: relative;
+}
+.a8::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.a8:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.list2a1{
+    position: relative;
+}
+.list2a1::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.list2a1:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.list2a2{
+    position: relative;
+}
+.list2a2::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.list2a2:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+.list2a3{
+    position: relative;
+}
+.list2a3::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    top: 20px;
+    left: 0;
+    background-color: black;
+}
+.list2a3:hover::after{
+    width: 100%;
+    transition: 1s;
+}
+
+.dropdown{
+    position: relative;
+}
+.list2{
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    list-style: none;
+    background-color: rgb(93, 93, 93);
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 0;
+}
+.list2 li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.list2 li{
+    margin: 20px 0px;
+    display: block;
+}
+.dropdown:hover .list2{
+    opacity: 1;
+}
+.i1{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.input{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 30px;
+}
+
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/img3.wallspic.com-great_pyramid_of_giza-monument-historic_site-wonders_of_the_world-egyptian_pyramids-2880x1800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 100, 100, 0.7);
+}
+.homecontent{
+    width: 50%;
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.homecontent .hometit{
+    font-size: 50px;
+    text-transform: uppercase;
+    color:rgb(42, 17, 17);
+}
+.homecontent .homep{
+    margin: 10px 0px;
+    color: rgb(250, 243, 229);
+    letter-spacing: 1.5px;
+    font-size: 19px;
+}
+.homebt{
+    width: 130px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: rgb(237, 230, 218);
+    color: rgb(42, 17, 17);
+}
+.homebt2{
+    background-color:rgb(42, 17, 17);
+    color: white;
+    margin-left: 10px;
+}
+.homebt:hover{
+    opacity: 0.7;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+}
+.container_content{
+    text-align: center;
+    margin-top: 20px;   
+}
+.container_content .container_tit{
+    margin-bottom: 5px;
+    font-size: 35px;
+    color: rgb(82, 8, 8);
+}
+.container_content .container_p{
+    width: 100px;
+    height: 2.5px;
+    background-color: rgb(137, 113, 113);
+    margin: auto;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container .containerlink{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-top: 25px;
+    color: rgb(151, 0, 0);
+}
+.container .containerp{
+    display: block;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.container_3divs{
+    padding-top: 50px;
+}
+.container_div{
+    width: 30%;
+    height: 30%;
+    border: 1px solid rgb(109, 78, 78);
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+}
+.containerdiv2{
+    margin: 0px 5%;
+}
+.container_div::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/img7.wallspic.com-sky-pyramid-landmark-ancient_history-great_pyramid_of_giza-3438x2212.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+.container_div:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+    z-index: -1;
+    border-radius: 10px;
+}
+.containerdiv2::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/Egypt\ archaeologists\ probe\ ‘previously\ unknown\ tombs’.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+.containerdiv2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+    z-index: -1;
+    border-radius: 10px;
+}
+.containerdiv3::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/img1.wallspic.com-archaeological_site-landscape-pyramid-great_pyramid_of_giza-pharaoh-3182x2116.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+}
+.containerdiv3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.container_div:hover .containertit{
+    color: rgb(113, 5, 5);
+}
+.container_div:hover .containerp{
+    color: rgb(83, 0, 0);
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(209, 209, 209);
+    position: relative;
+    padding-top: 40px;
+}
+.container2content{
+    text-align: center;
+}
+.container2tit{
+    font-size: 35px;
+    color:rgb(84, 84, 84);
+}
+.container2p{
+    width: 100px;
+    height: 2.5px;
+    background-color:rgb(151, 148, 148);
+    margin: auto;
+}
+.section{
+    width:70%;
+    height: 60%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.con2_item{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.con2_item2{
+    margin: 0px 5%;
+}
+.con2_item_image{
+    width: 100%;
+    height: 45%;
+    margin: auto;
+}
+.con2_image2{
+    margin-top: 14%;
+}
+.con2_item_image img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.con2_item_info{
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    color: rgb(237, 235, 235);
+    width: 30%;
+    height: 45%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    float: left;
+    margin-top: -199px;
+    padding-top: 10px;
+    visibility: hidden;
+}
+.con2_item_info_tit{
+    margin: 20px 0px;
+    opacity: 0.7;
+    font-size: 35px;
+    color:rgb(182, 182, 182);
+}
+.con2_item_info_p{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.con2_item_info i{
+    font-size: 25px;
+    margin: 0px 3px;
+    width: 50px;
+    height: 30px;
+    background-color:rgb(80, 80, 80);
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.con2_sec:hover .con2_item_info{
+    visibility: visible;
+}
+
+
+.container3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.bigcontainer3{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.con3_section{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.con3_2{
+    margin: 0px 12.5%;
+}
+.con3_sec{
+    width: 100%;
+    height: 45%;
+    border: 1px solid rgb(59, 0, 0);
+    padding-left: 40px;
+    padding-top: 35px;
+    border-radius: 10px;
+    position: relative;
+}
+.con3_sec .con3_tit{
+    display: inline;
+    margin-top: 30px;
+}
+.con3_sec .con3_p{
+    opacity: 0.5;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.con3_sec i{
+    margin-left: -30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.gg{
+    margin-top: 14.5%;
+}
+
+.gg::after{
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/montaza.jpeg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    position: absolute;
+}
+.gg:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    transition: 0.5s;
+    z-index: -1;
+}
+.gg2::after{
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/The\ Citadel\ of\ Qaitbay\ \(or\ the\ Fort\ of\ Qaitbay\)….jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    position: absolute;
+}
+.gg2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    transition: 0.5s;
+    z-index: -1;
+}
+.gg3::after{
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/Bibliotheca\ Alexandrina\ uploads\ 200\,000\ electronic\ books\ for\ free\ -\ Egypt\ Independent.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    position: absolute;
+}
+.gg3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    transition: 0.5s;
+    z-index: -1;
+}
+.gg4::after{
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/Egypt\ -\ Stanley\ Bridge\ of\ Alexandria.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    position: absolute;
+}
+.gg4:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    transition: 0.5s;
+    z-index: -1;
+}
+.gg5::after{
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/corniche.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+    position: absolute;
+}
+.gg5:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    transition: 0.5s;
+    z-index: -1;
+}
+.gg6::after{
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/Pompey\'s\ Pillar\ \(Column\)\ in\ Alexandria\ _\ Egypt.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity: 0;
+    position: absolute;
+}
+.gg6:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.con3_sec:hover .con3_tit{
+    color:rgb(94, 89, 89);
+}
+.con3_sec:hover .con3_p{
+    opacity: 1;
+    color: rgb(66, 66, 66);
+    font-size: 19px;
+    opacity: 1;
+}
+.con3_sec:hover i{
+    color: rgb(65, 65, 65);
+}
+
+.container4{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.con4_section{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.con4_image{
+    width: 350px;
+    height: 450px;
+    float: right;
+    z-index: -1;
+}
+.con4_image img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.con4_content{
+    float: left;
+    width: 550px;
+    color: rgb(108, 77, 0);
+}
+.con4_content .con4_tit1{
+    font-size: 50px;
+    color: rgb(133, 95, 0);
+}
+.con4_content h3{
+    line-height: 60px;
+    opacity: 0.7;
+}
+.con4_content i{
+    float: left;
+    margin-top: 18px;
+    font-size: 25px;
+}
+.con4_content .con4_p1{
+    width: 110px;
+    height: 4px;
+    background-color: rgb(220, 184, 114);
+}
+.con4_content .con4_p2{
+    opacity: 0.6;
+    margin: 20px 0px;
+    color: rgb(141, 104, 13);
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: darkgray;
+    float: right;
+    margin-top: 460px;
+    margin-left: 5px;
+}
+.con4_circle{
+    margin-left: 1010px;
+    position: absolute;
+}
+.circle1{
+    background-color: rgb(193, 159, 73);
+}
+.circle2:hover{
+    background-color: rgb(164, 118, 0);
+}
+.circle3:hover{
+    background-color: rgb(164, 118, 0);
+}
+
+.container5{
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/img7.wallspic.com-transportation_engineering-transport-engineering-traffic_engineering-interchange-5464x3640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.con5_section{
+    width: 80%;
+    height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding-top: 15px;
+}
+.overlay1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.con5_content{
+    float: left;
+    width: 15%;
+    text-align: center;
+    color: aliceblue;
+}
+.content4{
+    float: right;
+}
+.content2{
+    margin: 0px 13.3333%;
+}
+.con5_content i{
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(154, 154, 154);
+}
+.con5_content .con5_p{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(234, 234, 234);
+}
+
+.container6{
+    width: 100%;
+    height: 100vh;
+    padding-top: 5%;
+    position: relative;
+}
+.con6_tit{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(122, 84, 47);
+    font-style: italic;
+}
+.con6_p{
+    width: 90px;
+    height: 2px;
+    background-color:rgba(141, 110, 88, 0.6);
+    margin: auto;
+    margin-top: 5px;
+}
+.con6_section{
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    margin-top: 20px;
+}
+.con6_sec{
+    width: 30%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid rgb(42, 0, 53);
+}
+.con6_sec2{
+    margin: 0px 5%;
+}
+.con6_sec .con6_sec_p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+.con6_sec_circle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(76, 39, 22);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgba(97, 71, 59, 0.323);
+}
+.con6_sec:hover .con6_sec_circle{
+    color:rgb(255, 255, 255);
+}
+.con6_sec:hover .con6_sec_p{
+    color:rgb(73, 0, 0);
+    font-size: 35px;
+    font-weight: bold;
+}
+.con6_sec_circle .con6_price{
+    display: inline;
+    font-size: 30px;
+}
+.con6_sec_circle i{
+    font-size: 30px;
+}
+.con6_sec_circle .con6_amount{
+    font-size: 16px;
+}
+.con6_sec .con6_para1{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 18.5px;
+    font-weight: bold;
+}
+.con6_sec .con6_btn{
+    width: 160px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid rgb(122, 0, 0);
+    background-color: lightgrey;
+    margin: auto;
+    text-align: center;
+    padding-top: 7.5px;
+    font-size: 17;
+}
+.con6_sec1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/★★★★\ Steigenberger\ Hotel\ El\ Tahrir\ Cairo\,\ Cairo\,\ Egypt.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.con6_sec1:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+    opacity: 0.8;
+    z-index: -1;
+}
+.con6_sec2::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/WhatsApp\ Image\ 2025-03-26\ at\ 10.42.42\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.con6_sec2:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+    opacity: 0.8;
+    z-index: -1;
+}
+.con6_sec3::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-image: url(../images/Points\ Hotel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.con6_sec3:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.container7{
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/opera.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.con7_section{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.con7_content{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+.con7_content1{
+    margin-right: 20%;
+    position: relative;
+}
+.con7_circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url(../images/omer\ elshrif.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-top: 10px;
+}
+.con7_circle2{
+    background-image: url(../images/Om\ Kalthoum.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con7_title{
+    float: left;
+    margin-top: 10px;
+}
+.con7_tit1{
+    margin-left: 110px;
+}
+.tit1{
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(241, 241, 241);
+}
+.tit2{
+    font-size: 20px;
+    color: rgb(169, 169, 169);
+}
+.con7_p{
+    margin-top: 30px;
+    color: rgb(199, 199, 199);
+}
+
+.con8_tit{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+    color: rgb(82, 82, 82);
+}
+.con8_p{
+    margin: auto;
+    width: 90px;
+    height: 3px;
+    background-color: darkgray;
+    margin-top: 8px;
+}
+.container8{
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.con8_item{
+    float: left;
+    width: 30%;
+    background-color: gainsboro;
+    padding: 16px 14px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+.con8_item2{
+    margin: 0px 5%;
+}
+.con8_image{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    position: relative;
+}
+.con8_image img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+.con8_icons{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    border-radius: 5px;
+}
+.con8_item:hover .con8_icons{
+    visibility: visible;
+}
+.con8_icons i{
+    color: rgb(129, 32, 32);
+    background-color: rgb(211, 189, 189);
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin-left: auto;
+    line-height: 45px;
+}
+.con8_item::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: black;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.con8_item:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+.con8_info_tit{
+    margin: 5px 0px;
+}
+.con8_item:hover .con8_info_tit{
+    color: rgb(133, 133, 133);
+}
+.con8_info_p{
+    opacity: 0.7;
+}
+.con8_item:hover .con8_info_p{
+    opacity: 1;
+    color: rgb(90, 23, 23);
+}
+
+.con9_tit{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 35%;
+    margin-bottom: 8px;
+    color: rgb(82, 82, 82);
+}
+.con9_p{
+    margin: auto;
+    width: 90px;
+    height: 3px;
+    background-color: darkgray;
+}
+.container9{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    margin-top:5%;
+}
+.con9_info a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.con9_item{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding-top: 30px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid rgb(89, 83, 83);
+}
+.con9_item2{
+    margin: 0px 5%;
+}
+.con9_item .con9_image{
+    width: 75%;
+    height: 200px;
+    margin: auto;
+}
+.con9_image img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+.con9_info{
+    text-align: center;
+    padding-top: 20px;
+}
+.con9_info i{
+    display: inline;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.con9_info .con9_info_name{
+    display: inline;
+    font-size: 17px;
+}
+.con9_info_tit{
+    margin-top: 10px;
+}
+.con9_info_p{
+    margin: 20px 0px;
+    opacity: 0.8;
+}
+.con9_item::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    height: 0;
+    background-color: rgba(100, 100, 100, 0.7);
+    transition: 0.5s;
+    border-radius: 10px;
+    z-index: -1;
+}
+.con9_item:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    border-radius: 10px;
+    z-index: -1;
+}
+.con9_item:hover .con9_info_p{
+    opacity: 1;
+    color: rgb(219, 219, 219);
+}
+.con9_item:hover .con9_info_tit{
+    color: rgb(71, 71, 71);
+}
+.con9_item:hover .con9_info_name{
+    color: rgb(219, 219, 219);
+}
+.con9_item:hover i{
+    color: rgb(58, 57, 57);
+}
+.con9_item:hover a{
+    color: rgb(255, 255, 255);
+}
+
+.container10{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(104, 104, 104);
+    margin-top: 10%;
+    padding-top: 20px;
+}
+.con10_image{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
+.con10_image img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+.con10_icons{
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 0px;
+}
+.con10_icons i{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: rgb(198, 198, 198);
+    background-color:rgb(46, 46, 46);
+    line-height: 55px;
+    opacity: 0.8;
+}
+.con10_info{
+    text-align: center;
+}
+.con10_info i{
+    display: inline;
+    font-size: 10px;
+}
+.con10_info .con10_info_p{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.con10_icons i:hover{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    opacity: 1;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/Agbalumo1-Regular.ttf') format('truetype');
+}
+.hometit{
+    font-family: 'Roboto Slab', sans-serif;
+}
+@font-face {
+    font-family: 'f2';
+    src: url('../fonts/Courgette-Regular.ttf') format('truetype');
+}
+.homep{
+    font-family: 'f2', sans-serif;
+}
+@font-face {
+    font-family: 'f3';
+    src: url('../fonts/Agbalumo-Regular.ttf') format('truetype');
+}
+body h2{
+    font-family: 'f3', sans-serif;
+}
+body{
+    background-color: rgba(255, 249, 240, 0.86);
+}
